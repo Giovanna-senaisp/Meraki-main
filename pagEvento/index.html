@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meraki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/imgHeaderEFooter/bolha.png">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <div class="ParteDecima">
+        <div class="logo">
+            <img class="bolha" src="img/imgHeaderEFooter/bolha.png" alt="">
+        <h4 class="logoNome">Meraki</h4>
+        </div>
+<div class="barraDePesquisa">
+        <input id="barraPesquisa" type="text" placeholder="Pesquise aqui">
+</div>
+<div class="perfil">
+<a href="./formulário.html">perfil</a>
+</div>
+<div class="notificacao">
+<img src="img/imgHeaderEFooter/sino.png" alt="">
+</div>
+</div>
+<div>
+    <nav>
+        <ul>
+            <li>
+                <a class="inicio" href="Inicio.html">Inicio</a>
+            </li>
+            <li class="dropdown">
+                <a class="categorias" href="">Categorias</a>
+                <div class="dropdown-menu">
+                <a  class="opcao" href="http://127.0.0.1:5500/pagCMusica/index.html">Música</a>
+                <a  class="opcao" href="">Cinema</a>
+                <a class="opcao"  href="">Literatura</a>
+                <a  class="opcao" href="">Artes</a>
+                <a class="opcao"  href="http://127.0.0.1:5500/pagCFotografia/index.html">Fotografia</a>
+                <a class="opcao" href="http://127.0.0.1:5500/pagCJogos/index.html">Jogos</a>
+                </div>
+            </li>
+            <li>
+                <a  class="pag" href="noticia.html">Noticias</a>
+            </li>
+            <li>
+                <a  class="pag" href="">Eventos</a>
+            </li>
+            <li>
+                <a  class="pag" href="formulário.html">Formulário</a>
+            </li>
+            <li>
+                <a  class="pag" href="">Comunidade</a>
+            </li>
+            <li>
+                <a class="pag" href="sobreNos.html">Sobre Nós</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+</div>
+    </header>
+    <main>
+        <div class="baner">
+            <img class="estrelaB1" src="img/banner/estrela1.png" alt="">
+            <img class="Bimg1"  src="img/banner/baner1.png" alt="">
+            <div class="banerT">
+            <h1 class="eventos">EVENTOS</h1>
+            <h1 class="magicas">MÁGICOS</h1>
+            </div>
+            <img class="estrela2B" src="img/banner/estrela2.png" alt="">
+            <img class="Bimg2" src="img/banner/baner2.png" alt="">
+            <img class="Bimg3" src="img/banner/baner3.png" alt="">
+            <img class="estrela3B" src="img/banner/estrela3.png" alt="">
+        </div>
+        <div class="botoes">
+            <button class="rosa" >JULHO</button>
+            <button class="roxo" >AGOSTO</button>
+            <button class="azul" >SETEMBRO</button>
+            <button class="amarelo" >OUTUBRO</button>
+            <button class="ROSA" onclick="filtrar('grupo5')">NOVEMBRO</button>
+            <button class="ROXO" onclick="filtrar('grupo6')">DEZEMBRO</button>
+        </div>
+        <div class="itens">
+            <div class="item grupo5">
+                <div class="eventoT">
+                    <img class="estrelaT" src="img/eventoP/estrelaEvento1.png" alt="">
+                    <img class="imgET" src="img/eventoP/imgEvento1.png" alt="">
+                    <h1 class="TT">Artistas independentes se juntam em performance ao-vivo</h1>
+                </div>
+                
+                <div class="evento" onclick="showOverlay('overlay1')">
+                    <img class="estrela" src="img/eventoP/estrelaEvento2.png" alt="">
+                    <img class="imgE" src="img/eventoP/imgEvento2.png" alt="">
+                    <h1 class="T">Descubra Novos Talentos: Exposição de Esculturas</h1>
+                </div>
+
+                <div id="overlay1" onclick="hideOverlay('overlay1')">
+                    <div class="bege">
+                        <h1 class="Tdetalhes">Detalhes do evento</h1>
+                        <div class="textos">
+                        <p class="texto"> Venha dar boas-vindas ao Ano Novo na "Festa de Artistas", um evento especial que reúne músicos e performers talentosos. Este espetáculo vibrante contará com apresentações ao vivo, danças e intervenções artísticas que celebram a renovação e a esperança do novo ano.</p>
+                        <h3 class="amarelo">ENTRADA</h3>
+                        <p class="texto">A entrada para a "Festa de Artistas" custa R$ 10, a ser paga na entrada do evento.</p>
+                        <h3 class="amarelo">LOCAL</h3>
+                        <p class="texto">Praça da República, São Paulo</p>
+                        <h3 class="amarelo">DIA E HORA</h3>
+                        <p class="texto">31 de dezembro, das 16h às 22h</p>
+                        </div>
+                        <img src="img/eventoG/evento3.png" alt="">
+                        <img src="img/eventoG/evento1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="item grupo6">
+                <div class="evento" onclick="showOverlay('overlay2')">
+                    <img class="estrela" src="img/eventoP/estrelaEvento3.png" alt="">
+                    <img class="imgE" src="img/eventoP/imgEvento3.png" alt="">
+                    <h1 class="T">Natal de Arte e Talento: Mostra de Fotógrafos e Ilustradores</h1>
+                </div>
+                <div id="overlay2" onclick="hideOverlay('overlay2')">
+                    <div class="bege">
+                        <h1 class="Tdetalhes">Detalhes do evento</h1>
+                        <div class="textos">
+                        <p class="texto"> Venha dar boas-vindas ao Ano Novo na "Festa de Artistas", um evento especial que reúne músicos e performers talentosos. Este espetáculo vibrante contará com apresentações ao vivo, danças e intervenções artísticas que celebram a renovação e a esperança do novo ano.</p>
+                        <h3 class="amarelo">ENTRADA</h3>
+                        <p class="texto">A entrada para a "Festa de Artistas" custa R$ 10, a ser paga na entrada do evento.</p>
+                        <h3 class="amarelo">LOCAL</h3>
+                        <p class="texto">Praça da República, São Paulo</p>
+                        <h3 class="amarelo">DIA E HORA</h3>
+                        <p class="texto">31 de dezembro, das 16h às 22h</p>
+                        </div>
+                        <img src="img/eventoG/evento3.png">
+                        <img src="img/eventoG/evento2.png" alt="">
+                    </div>
+                </div>
+                <div class="evento" onclick="showOverlay('overlay3')">
+                    <img class="estrela" src="img/eventoP/estrelaEvento4.png" alt="">
+                    <img class="imgE" src="img/eventoP/imgEvento4.png" alt="">
+                    <h1 class="T">Festa de Artistas: Celebrando o Novo Ano com Música e Performance</h1>
+                </div>
+
+                <div id="overlay3" onclick="hideOverlay('overlay3')">
+                    <div class="bege">
+                        <h1 class="Tdetalhes">Detalhes do evento</h1>
+                        <h1 class="Tdetalhes">Detalhes do evento</h1>
+                        <div class="textos">
+                        <p class="texto"> Venha dar boas-vindas ao Ano Novo na "Festa de Artistas", um evento especial que reúne músicos e performers talentosos. Este espetáculo vibrante contará com apresentações ao vivo, danças e intervenções artísticas que celebram a renovação e a esperança do novo ano.</p>
+                        <h3 class="amarelo">ENTRADA</h3>
+                        <p class="texto">A entrada para a "Festa de Artistas" custa R$ 10, a ser paga na entrada do evento.</p>
+                        <h3 class="amarelo">LOCAL</h3>
+                        <p class="texto">Praça da República, São Paulo</p>
+                        <h3 class="amarelo">DIA E HORA</h3>
+                        <p class="texto">31 de dezembro, das 16h às 22h</p>
+                        </div>
+                        <img src="img/eventoG/evento3.png"">
+                        <img src="img/eventoG/evento3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cimaRodape">
+        <div class="logo1">
+            <img class="bolha1" src="img/imgHeaderEFooter/bolha.png" alt="">
+        <h4 class="logo1">Meraki</h4>
+    </div>
+        </div>
+        <div>
+            <a class="baixoRodape" href="Inicio.html">Inicio</a>
+            <a class="baixoRodape" href="">Categorias</a>
+            <a class="baixoRodape" href="">Noticias</a>
+            <a class="baixoRodape" href="">Eventos</a>
+            <a class="baixoRodape" href="formulário.html">Formulário</a>
+            <a class="baixoRodape" href="">Comunidade</a>
+            <a class="baixoRodape" href="">Sobre Nós</a>
+                </div>
+                <img class="redes" src="img/imgHeaderEFooter/redesSociais.png" alt="">
+        </div>
+        <div class="fim">
+            <div class="textosRodape">
+            <p class="textoRodape1">Copyright 2024 © Todos os direitos reservados.</p>
+            <p class="textoRodape">Política de Privacidade</p>
+        </div>
+        </div>
+    </footer>
+    <script>
+        function showOverlay(id) {
+    const overlay = document.getElementById(id);
+    if (overlay) {
+        overlay.style.display = "flex"; // Mostra o overlay
+    } else {
+        console.error(`Overlay com ID "${id}" não encontrado.`);
+    }
+}
+
+function hideOverlay(id) {
+    const overlay = document.getElementById(id);
+    if (overlay) {
+        overlay.style.display = "none"; // Esconde o overlay
+    }
+}
+function filtrar(grupo) {
+    const itens = document.querySelectorAll(".item");
+    
+    itens.forEach((item) => {
+        if (item.classList.contains(grupo)) {
+            item.classList.remove("oculto");
+        } else {
+            item.classList.add("oculto");
+        }
+    });
+}
+
+window.onload = () => {
+    filtrar("grupo5");
+};
+
+        </script>
+</body>
+</html>
