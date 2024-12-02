@@ -857,20 +857,15 @@ main {
     width: 428px;
 }
 
-/* fim paisagismo */
-/* urbana */
-
 #urbana {
     display: flex;
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 20px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    background-color: red;
-
 }
 
 #urb1 {
@@ -899,8 +894,6 @@ main {
     justify-content: center;
     flex-direction: row;
 }
-
-
 #urb4 {
     display: flex;
     width: auto;
@@ -912,7 +905,7 @@ main {
 
 #fogo img {
     width: 800px;
-    margin: 10px;
+    margin-right: -10px;
 }
 
 .city {
@@ -925,4 +918,54 @@ main {
 
 }
 
-/* fim urbana */
+#documental{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: red;
+}
+.fotod{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.d1{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.d2{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.d3{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.d4{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
