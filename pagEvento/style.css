@@ -236,10 +236,11 @@ body {
     width: 1425px;
     height: 905px;
     position: relative;
+    margin-left: 350px;
 }
 
 .baner img {
-    position: absolute;
+    position: relative;
     z-index: 1;
 }
 
@@ -271,7 +272,7 @@ body {
     justify-content: flex-start;
     position: relative;
     z-index: 20;
-    margin-left: -250px;
+    margin-left: -150px;
     margin-top: -150px;
 }
 
@@ -290,15 +291,16 @@ body {
 }
 
 .Bimg1 {
-    margin-left: -900px;
+    margin-left: -500px;
 }
 
 .Bimg2 {
     margin-bottom: -250px;
+    margin-left: -250px;
 }
 
 .Bimg3 {
-    margin-right: -900px;
+    margin-left: 100px;
 }
 
 .botoes{
@@ -451,6 +453,8 @@ button{
     color: #fce6d9;
     font-size: 86px;
     margin-left: -100px;
+    font-family: "mont3";
+    cursor: pointer;
 }
 .modal-content {
     padding: 20px;
@@ -464,11 +468,37 @@ button{
     font-size: 80px;
     color: #FEB500;
     font-family: "mont";
-    font-weight: 300;
+    font-weight: 50;
     width: 910px;
     z-index: 15;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 35px;
+    letter-spacing: .3rem;
+    -webkit-text-stroke: 1px #FEB500;
+}
+.Tdetalhes2{
+    font-size: 80px;
+    color: #4848D8;
+    font-family: "mont";
+    font-weight: 200;
+    width: 910px;
+    z-index: 15;
+    margin-top: 20px;
+    margin-left: 35px;
+    letter-spacing: .3rem;
+    -webkit-text-stroke: 1px #4848D8;
+}
+.Tdetalhes3{
+    font-size: 80px;
+    color: #b41d6b;
+    font-family: "mont";
+    font-weight: 200;
+    width: 910px;
+    z-index: 15;
+    margin-top: 20px;
+    margin-left: 35px;
+    letter-spacing: .3rem;
+    -webkit-text-stroke: 1px #b41d6b;
 }
 .textos{
     margin-left: 50px;
@@ -482,6 +512,18 @@ button{
 .AMARELO{
     font-size: 15px;
     color: #FEB500;
+    font-family: "mont5";
+    font-weight: 300;
+}
+.AZUL{
+    font-size: 15px;
+    color: #4848D8;
+    font-family: "mont5";
+    font-weight: 300;
+}
+.ROSAA{
+    font-size: 15px;
+    color: #b41d6b;
     font-family: "mont5";
     font-weight: 300;
 }
