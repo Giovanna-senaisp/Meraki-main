@@ -9,27 +9,9 @@
     height: 0;
     padding: 0;
     margin: 0;
-}
-.oculto {
     display: none;
 }
 
-#overlay1, #overlay2, #overlay3 {
-    display: none;
-}
-#overlay1, #overlay2, #overlay3 {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 @font-face {
     font-family: "mont";
     src: url(./fontes/SwilyBright-Italic.otf);
@@ -405,7 +387,7 @@ button{
     margin-top: 15px;
     opacity: 70%;
 }
-.evento{
+.modal-open{
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -442,15 +424,67 @@ button{
     flex-direction: row;
     justify-content: center;
 }
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    flex-direction: row;
+}
 .bege{
     width: 568px;
     height: 686px;
     background-color: #fce6d9;
-    border-radius: 60px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px 0 0 60px;
+    gap: 15px;
 }
-#overlay1{
+.link{
+    background: none;
+    color: #fce6d9;
+    font-size: 86px;
+    margin-left: -100px;
+}
+.modal-content {
+    padding: 20px;
+    border-radius: 60px;
+    width: 1198px;
+    height: 686px;
     display: flex;
     flex-direction: row;
+}
+.Tdetalhes1{
+    font-size: 80px;
+    color: #FEB500;
+    font-family: "mont";
+    font-weight: 300;
+    width: 910px;
+    z-index: 15;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.textos{
+    margin-left: 50px;
+    margin-right: 15px;
+}
+.texto{
+    font-size: 18px;
+    font-family: "mont3";
+    margin-bottom: 40px;
+    /* font-weight: bold; */
+}
+.AMARELO{
+    font-size: 15px;
+    color: #FEB500;
+    font-family: "mont5";
+    font-weight: 300;
 }
 footer {
     background-color: #2A114B;
